@@ -26,7 +26,7 @@ defmodule PhoenixExpug.Mixfile do
     [
       {:phoenix, ">= 1.1.0"},
       {:phoenix_html, ">= 2.3.0"},
-      {:expug, ">= 0.0.1"},
+      {:expug, git: "https://github.com/edjroot/expug.git"},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
