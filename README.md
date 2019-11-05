@@ -15,7 +15,7 @@ Add phoenix_expug to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:phoenix_expug, "~> 0.1.1"}]
+  [{:phoenix_expug, "~> 0.1.2"}]
 end
 ```
 
@@ -24,6 +24,7 @@ Add the following to your `config/config.exs`:
 ```elixir
 config :phoenix, :template_engines,
   pug: PhoenixExpug.Engine
+  lpug: PhoenixExpug.LiveEngine  # For Phoenix LiveView
 ```
 
 Add the .pug extension to Phoenix livereload in `config/dev.exs`:
