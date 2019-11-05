@@ -1,7 +1,7 @@
 defmodule PhoenixExpug.Mixfile do
   use Mix.Project
 
-  @version "0.1.1"
+  @version "0.1.2"
   @description "Phoenix template engine for Expug"
 
   def project do
